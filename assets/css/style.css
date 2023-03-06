@@ -1,0 +1,223 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+li{
+	display: inline-block;
+}
+a:hover{
+	text-decoration: none;
+}
+.bold{
+	font-weight: bold;
+}
+h3{
+	font-weight: normal;
+	font-size: 24px;
+	color: #000;
+}
+h4{
+	font-weight: normal;
+}
+/*header*/
+header{
+	width: 100%;
+	height: 54px;
+	font-size: 100%;
+	padding: 0 15px;
+	letter-spacing: 3px;
+	position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+   background: #fff;
+   z-index: 1;
+}
+.left-div-header{
+	float: left;
+}
+.left-ul-header li,.right-div-header ul li{
+	padding: 13.5px 0;
+}
+.left-ul-header a:hover,.right-div-header ul li a:hover
+{
+	background: #efefef;
+}
+.left-ul-header li a,.right-div-header ul li a{
+	color: inherit;
+	padding: 6px 12px;
+}
+.right-div-header{
+	float: right;
+}
+/*main content*/
+/*main content 1*/
+.big-picture{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin-bottom: 70px;
+}
+.big-picture img{
+	width: 100%;
+	height: 100%;
+}
+.div-in-big-picture{
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	transform: translate(-50%,50%);
+	text-align: center;
+}
+.div-in-big-picture h1{
+	font-weight: normal;
+	font-size: 2rem;
+	color: #fff;
+	margin: 0;
+}
+.div-in-big-picture .bold{
+	background: rgba(0,0,0,0.7);
+	padding: 8px 12px;
+}
+/*main content 2*/
+.projects{
+	padding: 0 15px;
+}
+.eight-picture-div{
+}
+.picture-post{
+	background-size: cover;
+	background-position: center;
+	height: 230px;
+	padding: 0;
+	border: #fff solid 6px;
+	float: left;
+}
+.picture-post span{
+	color: #fff;
+	background: #000;
+	padding: 6px 16px;
+	float: left;
+}
+.one-picture{
+	background-image: url(../img/house5.jpg);
+}
+.two-picture{
+	background-image: url(../img/house2.jpg);	
+}
+.three-picture{
+	background-image: url(../img/house3.jpg);
+}
+.four-picture{
+	background-image: url(../img/house4.jpg);
+}
+.five-picture{
+	background-image: url(../img/house2.jpg);	
+}
+.six-picture{
+	background-image: url(../img/house5.jpg);	
+}
+.seven-picture{
+	background-image: url(../img/house4.jpg);	
+}
+.eight-picture{
+	background-image: url(../img/house3.jpg);	
+}
+/*main content 3*/
+.about{
+	padding: 0 15px;
+	position: relative;
+	top: 60px;
+}
+.about h3{
+}
+.about p{
+	color: #000;
+	font-size: 15px;
+	margin-bottom: 40px;
+}
+.introduction-div{
+	padding: 0;
+	float: left;
+	border: 6px solid #fff;
+	margin-bottom: 120px;
+}
+.introduction-div img{
+	width: 100%;
+	filter: grayscale(80%);
+}
+.introduction-div h4{
+	margin: 12px 0;
+}
+.introduction-div span{
+	opacity: 0.6;
+	margin-bottom: 10px;
+	display: block;
+}
+.introduction-div p{
+	margin-bottom: 14px;
+}
+.introduction-div button{
+	width: 100%;
+	border: 0;
+	padding: 6px 0;
+}
+.introduction-div button:hover{
+	background: #afafaf;
+}
+/*main content 4*/
+.contact{
+	padding: 0 15px;
+}
+.contact input{
+	display: block;
+	padding-left: 8px; 
+	width: 100%;
+	height: 40px;
+	margin-bottom: 14px; 
+}
+.contact input[type=submit]{
+	width: 153px;
+	background: #000;
+	color: #fff;
+	border: 0;
+	height: 38px;
+	margin-top: 40px;
+}
+.contact input[type=submit]:hover{
+	background: #999;
+	color: #000;
+}
+.contact img{
+	width: 100%;
+	height: 100%;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+/*footer*/
+footer{
+	width: 100%;
+	height: 84px;
+	text-align: center;
+	background: #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+footer p{
+	color: #fff;
+}
+footer a{
+	color: #fff;
+	text-decoration: underline;
+}
+footer a:hover{
+	color: green;
+	text-decoration: underline;
+}
